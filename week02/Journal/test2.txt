@@ -1,0 +1,27 @@
+[
+  {
+    "_date": "24/01/2026",
+    "_promptText": "What was the best part of my day?",
+    "_entryText": "lorem ipsum"
+  },
+  {
+    "_date": "24/01/2026",
+    "_promptText": "If I had one thing I could do over today, what would it be?",
+    "_entryText": "lorem ipsum"
+  },
+  {
+    "_date": "24/01/2026",
+    "_promptText": "What was the strongest emotion I felt today?",
+    "_entryText": "lorem ipsum"
+  },
+  {
+    "_date": "24/01/2026",
+    "_promptText": "What was the best part of my day?",
+    "_entryText": "lorem ipsum"
+  },
+  {
+    "_date": "24/01/2026",
+    "_promptText": "If I had one thing I could do over today, what would it be?",
+    "_entryText": "lorem ipsum"
+  }
+]
