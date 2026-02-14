@@ -1,0 +1,33 @@
++------------------------------------------------+
+|            Activity (abstract)                 |
++------------------------------------------------+
+| # _name : string                               |
+| # _description : string                        |
+| # _duration : int                              |
++------------------------------------------------+
+| + Activity(name : string, description : string)|
+| + DisplayStartingMessage() : void              |
+| + DisplayEndingMessage() : void                |
+| + ShowSpinner(seconds : int) : void            |
+| + ShowCountDown(seconds : int) : void          |
+| + Run() : void (abstract)                      |
++------------------------------------------------+
+                            ^
+                            |
+            +---------------+---------------------------------------------+
+            |                                  |                          |
+            |                                  |                          |
++------------------------+  +--------------------------------+  +------------------------------------+
+|  BreathingActivity     |  |  ReflectingActivity            |  |  ListingActivity                   |
++------------------------+  +--------------------------------+  +------------------------------------+
+| (no unique attributes) |  | - _prompts : List<string>      |  | - _prompts : List<string>          |
+|                        |  | - _questions : List<string>    |  | - _count : int                     |
++------------------------+  +--------------------------------+  +------------------------------------+
+| + BreathingActivity()  |  | + ReflectingActivity()         |  | + ListingActivity()                |
+| + Run() : void         |  | + Run() : void                 |  | + Run() : void                     |
+|                        |  | - GetRandomPrompt() : string   |  | - GetRandomPrompt() : string       |
+|                        |  | - GetRandomQuestion() : string |  | - GetListFromUser() : List<string> |
+|                        |  | - DisplayPrompt() : void       |  |                                    |
+|                        |  | - DisplayQuestions() : void    |  |                                    |
++------------------------+  +--------------------------------+  +------------------------------------+
+
